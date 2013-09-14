@@ -1,0 +1,3 @@
+[submodule "LiveFrost"]
+	path = LiveFrost
+	url = git@github.com:radi/LiveFrost.git
