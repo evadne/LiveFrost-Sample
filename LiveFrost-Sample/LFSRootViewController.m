@@ -38,7 +38,6 @@
 - (LFGlassView *) glassView {
 	if (!_glassView) {
 		_glassView = [[LFGlassView alloc] initWithFrame:(CGRect){ 0, 0, 200, 200 }];
-		_glassView.backgroundColor = [UIColor redColor];
 		_glassView.autoresizingMask = UIViewAutoresizingFlexibleTopMargin|UIViewAutoresizingFlexibleLeftMargin|UIViewAutoresizingFlexibleBottomMargin|UIViewAutoresizingFlexibleRightMargin;
 		_glassView.center = (CGPoint){
 			0.5f * CGRectGetWidth(self.view.bounds),
