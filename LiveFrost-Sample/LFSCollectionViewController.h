@@ -1,6 +1,6 @@
 #import <UIKit/UIKit.h>
 
-@interface LFSRootViewController : UICollectionViewController
+@interface LFSCollectionViewController : UICollectionViewController
 
 @property (nonatomic, retain) IBOutlet UICollectionView *collectionView;
 

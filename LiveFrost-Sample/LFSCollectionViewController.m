@@ -1,12 +1,12 @@
 #import <LiveFrost/LiveFrost.h>
-#import "LFSRootViewController.h"
+#import "LFSCollectionViewController.h"
 #import "LFSCollectionViewCell.h"
 
-@interface LFSRootViewController ()
+@interface LFSCollectionViewController ()
 @property (nonatomic, readonly, strong) LFGlassView *glassView;
 @end
 
-@implementation LFSRootViewController
+@implementation LFSCollectionViewController
 @dynamic collectionView;
 @synthesize glassView = _glassView;
 

@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LFSRootViewController">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LFSCollectionViewController">
             <connections>
                 <outlet property="collectionView" destination="aXk-cz-EZh" id="LyV-x0-rLf"/>
                 <outlet property="view" destination="aXk-cz-EZh" id="bwX-FL-Mxp"/>

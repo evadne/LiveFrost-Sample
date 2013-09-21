@@ -15,9 +15,13 @@
 		FFB73F3617E4B851006B3796 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB73F3517E4B851006B3796 /* main.m */; };
 		FFB73F3A17E4B851006B3796 /* LFSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB73F3917E4B851006B3796 /* LFSAppDelegate.m */; };
 		FFB73F3C17E4B851006B3796 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFB73F3B17E4B851006B3796 /* Images.xcassets */; };
-		FFB73F5B17E4B8A6006B3796 /* LFSRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB73F5917E4B8A6006B3796 /* LFSRootViewController.m */; };
-		FFB73F5C17E4B8A6006B3796 /* LFSRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFB73F5A17E4B8A6006B3796 /* LFSRootViewController.xib */; };
+		FFB73F5B17E4B8A6006B3796 /* LFSCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB73F5917E4B8A6006B3796 /* LFSCollectionViewController.m */; };
+		FFB73F5C17E4B8A6006B3796 /* LFSCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFB73F5A17E4B8A6006B3796 /* LFSCollectionViewController.xib */; };
 		FFB73F5F17E4BA82006B3796 /* LFSCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB73F5E17E4BA82006B3796 /* LFSCollectionViewCell.m */; };
+		FFB83E3417E5F25A0090EA9B /* LFSMoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB83E3317E5F25A0090EA9B /* LFSMoviePlayerViewController.m */; };
+		FFB83E3617E5F27B0090EA9B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFB83E3517E5F27B0090EA9B /* MediaPlayer.framework */; };
+		FFB83E3817E5F2DC0090EA9B /* sample.mov in Resources */ = {isa = PBXBuildFile; fileRef = FFB83E3717E5F2DC0090EA9B /* sample.mov */; };
+		FFB83E3A17E5F4F70090EA9B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFB83E3917E5F4F70090EA9B /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,11 +39,17 @@
 		FFB73F3917E4B851006B3796 /* LFSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFSAppDelegate.m; sourceTree = "<group>"; };
 		FFB73F3B17E4B851006B3796 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FFB73F4217E4B851006B3796 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		FFB73F5817E4B8A6006B3796 /* LFSRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFSRootViewController.h; sourceTree = "<group>"; };
-		FFB73F5917E4B8A6006B3796 /* LFSRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFSRootViewController.m; sourceTree = "<group>"; };
-		FFB73F5A17E4B8A6006B3796 /* LFSRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LFSRootViewController.xib; sourceTree = "<group>"; };
+		FFB73F5817E4B8A6006B3796 /* LFSCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFSCollectionViewController.h; sourceTree = "<group>"; };
+		FFB73F5917E4B8A6006B3796 /* LFSCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFSCollectionViewController.m; sourceTree = "<group>"; };
+		FFB73F5A17E4B8A6006B3796 /* LFSCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LFSCollectionViewController.xib; sourceTree = "<group>"; };
 		FFB73F5D17E4BA82006B3796 /* LFSCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFSCollectionViewCell.h; sourceTree = "<group>"; };
 		FFB73F5E17E4BA82006B3796 /* LFSCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFSCollectionViewCell.m; sourceTree = "<group>"; };
+		FFB83E3017E5EEBE0090EA9B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		FFB83E3217E5F25A0090EA9B /* LFSMoviePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFSMoviePlayerViewController.h; sourceTree = "<group>"; };
+		FFB83E3317E5F25A0090EA9B /* LFSMoviePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFSMoviePlayerViewController.m; sourceTree = "<group>"; };
+		FFB83E3517E5F27B0090EA9B /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		FFB83E3717E5F2DC0090EA9B /* sample.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = sample.mov; path = ../../../Desktop/sample.mov; sourceTree = "<group>"; };
+		FFB83E3917E5F4F70090EA9B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFB83E3A17E5F4F70090EA9B /* AVFoundation.framework in Frameworks */,
+				FFB83E3617E5F27B0090EA9B /* MediaPlayer.framework in Frameworks */,
 				FFB73F2C17E4B851006B3796 /* CoreGraphics.framework in Frameworks */,
 				FFB73F2E17E4B851006B3796 /* UIKit.framework in Frameworks */,
 				FFB73F2A17E4B851006B3796 /* Foundation.framework in Frameworks */,
@@ -61,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				FFB73F2F17E4B851006B3796 /* LiveFrost-Sample */,
+				FFB83E3717E5F2DC0090EA9B /* sample.mov */,
 				FFB73F2817E4B851006B3796 /* Frameworks */,
 				FFB73F2717E4B851006B3796 /* Products */,
 				AAAD97F714524099B510F59F /* Pods.xcconfig */,
@@ -78,6 +91,9 @@
 		FFB73F2817E4B851006B3796 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FFB83E3917E5F4F70090EA9B /* AVFoundation.framework */,
+				FFB83E3517E5F27B0090EA9B /* MediaPlayer.framework */,
+				FFB83E3017E5EEBE0090EA9B /* CoreMotion.framework */,
 				FFB73F2917E4B851006B3796 /* Foundation.framework */,
 				FFB73F2B17E4B851006B3796 /* CoreGraphics.framework */,
 				FFB73F2D17E4B851006B3796 /* UIKit.framework */,
@@ -92,9 +108,11 @@
 			children = (
 				FFB73F3817E4B851006B3796 /* LFSAppDelegate.h */,
 				FFB73F3917E4B851006B3796 /* LFSAppDelegate.m */,
-				FFB73F5817E4B8A6006B3796 /* LFSRootViewController.h */,
-				FFB73F5917E4B8A6006B3796 /* LFSRootViewController.m */,
-				FFB73F5A17E4B8A6006B3796 /* LFSRootViewController.xib */,
+				FFB73F5817E4B8A6006B3796 /* LFSCollectionViewController.h */,
+				FFB73F5917E4B8A6006B3796 /* LFSCollectionViewController.m */,
+				FFB73F5A17E4B8A6006B3796 /* LFSCollectionViewController.xib */,
+				FFB83E3217E5F25A0090EA9B /* LFSMoviePlayerViewController.h */,
+				FFB83E3317E5F25A0090EA9B /* LFSMoviePlayerViewController.m */,
 				FFB73F5D17E4BA82006B3796 /* LFSCollectionViewCell.h */,
 				FFB73F5E17E4BA82006B3796 /* LFSCollectionViewCell.m */,
 				FFB73F3B17E4B851006B3796 /* Images.xcassets */,
@@ -168,9 +186,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFB83E3817E5F2DC0090EA9B /* sample.mov in Resources */,
 				FFB73F3417E4B851006B3796 /* InfoPlist.strings in Resources */,
 				FFB73F3C17E4B851006B3796 /* Images.xcassets in Resources */,
-				FFB73F5C17E4B8A6006B3796 /* LFSRootViewController.xib in Resources */,
+				FFB73F5C17E4B8A6006B3796 /* LFSCollectionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,8 +233,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFB73F5B17E4B8A6006B3796 /* LFSRootViewController.m in Sources */,
+				FFB73F5B17E4B8A6006B3796 /* LFSCollectionViewController.m in Sources */,
 				FFB73F3A17E4B851006B3796 /* LFSAppDelegate.m in Sources */,
+				FFB83E3417E5F25A0090EA9B /* LFSMoviePlayerViewController.m in Sources */,
 				FFB73F5F17E4BA82006B3796 /* LFSCollectionViewCell.m in Sources */,
 				FFB73F3617E4B851006B3796 /* main.m in Sources */,
 			);
