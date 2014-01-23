@@ -43,6 +43,7 @@
 			0.5f * CGRectGetWidth(self.view.bounds),
 			0.5f * CGRectGetHeight(self.view.bounds)
 		};
+		_glassView.layer.cornerRadius = 20.0;
 	}
 	return _glassView;
 }
