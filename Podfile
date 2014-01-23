@@ -1,1 +1,1 @@
-pod 'LiveFrost', :path => 'LiveFrost'
+pod 'LiveFrost'
